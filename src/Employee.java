@@ -3,7 +3,7 @@ public class Employee {
     private int id = 0;
     private String name;
     private int department;
-    private int salary;
+    private double salary;
 
     public Employee(String name, int department, int salary) {
         this.name = name;
@@ -22,7 +22,7 @@ public class Employee {
         this.department = department;
     }
 
-    public void setSalary(int salary) {
+    public void setSalary(double salary) {
         this.salary = salary;
     }
 
