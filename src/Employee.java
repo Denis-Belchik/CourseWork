@@ -1,11 +1,11 @@
 public class Employee {
     private static int counter = 0;
-    private int id = 0;
+    private final int id;
     private String name;
     private int department;
     private double salary;
 
-    public Employee(String name, int department, int salary) {
+    public Employee(String name, int department, double salary) {
         this.name = name;
         this.department = department;
         this.salary = salary;
